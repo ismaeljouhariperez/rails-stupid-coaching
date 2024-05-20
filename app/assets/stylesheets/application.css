@@ -13,3 +13,23 @@
  *= require_tree .
  *= require_self
  */
+
+.message {
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.user-message {
+  background-color: #f0f0f0;
+  border-left: 5px solid gray;
+}
+
+.coach-message {
+  background-color: #ffffcc;
+  border-left: 5px solid #ffc107; /* Bootstrap warning color */
+}
+
+.signature {
+  font-style: italic;
+  text-align: right;
+}
